@@ -28,3 +28,21 @@ const UserList = (props) => {
 }
 
 export default UserList
+
+
+// 4. Dynamic Props via Objects
+
+// function App() {
+//   const userData = {
+//     name: 'Bob',
+//     age: 45,
+//     isVerified: false,
+//   };
+
+//   return (
+//     <div>
+//       {/* Passing all properties from the userData object */}
+//       <UserProfile {...userData} />
+//     </div>
+//   );
+// }
