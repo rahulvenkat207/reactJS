@@ -1,9 +1,9 @@
 import './App.css'
+import {ChildrenProp} from './tutorials/03-react-props/ChildrenProp'
 
-import { UserProfile } from './tutorials/03-react-props/UserProfile'
 function App() {
   return(
-  <UserProfile />
+   <ChildrenProp/>
 
   )
 }
