@@ -1,11 +1,9 @@
 import './App.css'
-
-
-import UseStateBasic from './tutorials/react-advance/01-UseState/UseStateBasic'
+import Rightway from './tutorials/react-advance/01-UseState/rightway'
 
 function App() {
   return(
-   <UseStateBasic/>
+    <Rightway />
   )
 }
 
